@@ -1,0 +1,21 @@
+15<theme>
+	<formatVersion>7</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system, basic, detailed, video, gamecarousel, grid">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+	</view>
+	
+   <view name="basic">
+      <image name="logo" extra="true">
+         <origin>0 0</origin>      
+         <pos>0.47 0.14</pos>
+         <path>./_inc/system.png</path>
+         <zIndex>5</zIndex>
+         <maxSize>0.8 0.8</maxSize>         
+      </image>                               
+   </view> 	
+	
+</theme>
